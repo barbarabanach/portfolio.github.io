@@ -122,11 +122,20 @@ header {
   border-radius: 8px;
   text-align: center;
   border: 2px solid #919191;
-  padding: 15px 100px 40px 100px;
+  padding: 15px 0px 40px;
 }
 
 .projects img {
   height: 300px;
+  margin: 0 15px;
+}
+
+.images-project {
+  display: inline-block;
+}
+
+.project-button {
+  padding: 10px;
 }
 
 .projects i {
@@ -274,11 +283,6 @@ footer p {
 
 
 
-
-@media (min-width: 1200px) {
-
-}
-
 @media (min-width: 992px) and (max-width: 1199px) {
 
     .col-m-6 {
@@ -307,10 +311,6 @@ footer p {
     .ability:hover {
       transform: none;
     }
-
-    [class*="col-"] {
-      float: none;
-    } 
 }
 
 @media (max-width: 767px) {
@@ -347,5 +347,12 @@ footer p {
   }
     .about h2,h3,h4 {
       margin: 0;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .main-content {
+      background-image: none;
     }
 }
