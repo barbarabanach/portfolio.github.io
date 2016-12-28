@@ -354,7 +354,7 @@ footer p {
 @media (max-width: 500px) {
     .main-content {
       background-image: none;
-      padding-bottom: 0px;
+      padding-bottom: 20px;
       min-height: 0vh;
     }
 
