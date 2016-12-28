@@ -359,7 +359,7 @@ footer p {
     }
 
     .projects {
-      border: 0;
+      border: none;
     }
 
     .projects img {
