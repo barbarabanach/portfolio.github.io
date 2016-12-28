@@ -358,6 +358,10 @@ footer p {
       min-height: 0vh;
     }
 
+    .projects {
+      border: 0;
+    }
+
     .projects img {
       margin: 0px;
     }
