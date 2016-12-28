@@ -355,8 +355,9 @@ footer p {
     .main-content {
       background-image: none;
       padding-bottom: 0px;
+      min-height: 100vh;
     }
-    
+
     .projects img {
       margin: 0px;
     }
